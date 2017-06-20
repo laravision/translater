@@ -1,0 +1,6 @@
+add middleware in karnel:
+
+    protected $routeMiddleware = [
+        ... 
+        'translater' => \Laravision\Translater\Http\Middleware\TranslaterMiddleware::class,
+    ];
